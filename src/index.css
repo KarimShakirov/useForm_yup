@@ -5,9 +5,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #10255c;
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: red;
+}
+
+input {
+  border-radius: 5px;
+  width: 450px;
+  height: 30px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+  transition: all .4s;
+  margin-bottom: 20px;
+}
+
+input:hover {
+  transform: scale(1.1);
+  border: 2px solid green;
+  background-color: #aff1af;
+}
+
+label {
+  color: #fff;
+}
+
+.main__title {
+  border-bottom: 3px solid #60b4d4;
+  letter-spacing: 6px;
+}
+
+
+
+.submit__btn {
+  margin-top: 30px;
+  font-size: 16px;
+  width: 450px;
+  height: 50px;
+  background-color: green;
+  color: #fff;
+  border: none;
+}
+
+.submit__btn:hover {
+  background-color: #016801;
+  border: 1px solid #0bff0b;
 }
